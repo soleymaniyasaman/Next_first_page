@@ -6,7 +6,7 @@ export default function FifthSection() {
     const arrays = [...Array(12)]
 
     return (
-        <div className="flex flex-col justify-center mt-44 px-10 mb-44">
+        <div className="flex flex-col justify-center mt-44 px-24 mb-44">
             <p className="text-3xl font-bold text-center">The Web SDK</p>
             <p className="text-xl text-gray-500 font-light mt-4 text-center">Next.js has all the tools you need to make the Web. Faster.</p>
             <div className="flex min-h-screen justify-center p-1 mt-10">

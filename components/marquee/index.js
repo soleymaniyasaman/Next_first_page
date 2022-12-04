@@ -1,6 +1,6 @@
 export default function Marquee() {
     return (
-        <div class="relative flex overflow-x-hidden">
+        <div class="relative flex overflow-x-hidden bg-white">
             <div class="py-12 animate-marquee whitespace-nowrap">
                 <span class="text-4xl mx-4">Marquee Item 1</span>
                 <span class="text-4xl mx-4">Marquee Item 2</span>
