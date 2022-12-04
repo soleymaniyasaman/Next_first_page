@@ -1,0 +1,39 @@
+.card {
+    max-width: 26.5em;
+    padding: 1em;
+}
+
+.card span {
+    position: relative;
+
+}
+
+.card::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, rgb(224 231 255), transparent);
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease;
+}
+
+.card:hover::before {
+    --size: 400px;
+}
+
+.card_8 {
+    --mouseX8: 0;
+    --mouseY8: 0;
+    // --padding: 0.5em;
+    overflow: hidden;
+    top: calc(var(--padding) * -1);
+    bottom: calc(var(--padding) * -1);
+    left: calc(var(--padding) * -1);
+    right: calc(var(--padding) * -1);
+    transform: perspective(800px) rotateX(calc(var(--mouseY8) * -0.5deg)) rotateY(calc(var(--mouseX8) * 0.5deg));
+
+}

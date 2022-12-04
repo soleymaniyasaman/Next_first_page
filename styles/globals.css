@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Space+Grotesk:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --angle: 45deg;
+    --opacity: 0.5;
+}
+html,
+body{
+    background-image: url('/background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

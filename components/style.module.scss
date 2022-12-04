@@ -1,0 +1,52 @@
+@keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
+.rainbow {
+	position: relative;
+	z-index: 0;
+	border-radius: 999px;
+	overflow: hidden;
+
+
+	&::before {
+		content: '';
+		position: absolute;
+		z-index: -2;
+		left: -150%;
+		top: -150%;
+		width: 400%;
+		height: 400%;
+		background-color: #ffffff;
+		// background-repeat: no-repeat;
+		background-position: 0 0;
+		background-image: conic-gradient(transparent 135deg, #000 180deg, transparent 255deg),
+			conic-gradient(transparent -45deg, #000 0deg, transparent 75deg);
+		animation: rotate 5s linear infinite;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		left: 1px;
+		top: 1px;
+		width: calc(100% - 2px);
+		height: calc(100% - 2px);
+		background: #ffffff;
+		border-radius: 999px;
+	}
+}
+
+
+@keyframes opacityChange {
+	50% {
+		opacity: .5;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
