@@ -1,8 +1,10 @@
 import { faArrowRight, faCaretUp, faExclamationTriangle, faTriangleCircleSquare, faTriangleExclamation } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import FirstSection from './firstSection'
+import ForthSection from './forthSection'
 import Marquee from './marquee'
 import SecondMarquee from './marquee/secondMarquee'
+import MiddleSections from './middleSections'
 import SecondSection from './secondSection'
 import Section from './section'
 import style from './style.module.scss'
@@ -34,6 +36,10 @@ export default function MainComponent() {
                 <br />
                 <ThirdSection />
                 <br />
+            </div>
+            <MiddleSections />
+            <div className="flex flex-col filter drop-shadow-md w-11/12 h-full justify-center mx-auto">
+                <ForthSection />
             </div>
             <Marquee />
             <SecondMarquee />

@@ -75,7 +75,7 @@ export default function Navbar() {
                         ['Templates', '/Templates'],
                         ['Interprise', '/Interprise'],
                     ].map(([title, url]) => (
-                        <a href={url} className="rounded-lg px-3 py-2 text-slate-500 text-sm hover:text-slate-900">{title}</a>
+                        <a href={url} key={title} className="rounded-lg px-3 py-2 text-slate-500 text-sm hover:text-slate-900">{title}</a>
                     ))}
                     <div className="w-9/12 flex justify-end items-center">
 
@@ -90,9 +90,12 @@ export default function Navbar() {
 
                         <div className="hidden flex md:flex">
 
-                            <button className="px-4 py-1 text-base text-slate-500 border border-white-400 rounded bg-white hover:border hover:border-slate-800">Feedback</button>
-
-                            <button className="mx-1 px-4 py-1 text-base text-white border border-blue-400 rounded bg-blue-500 hover:text-blue-400 hover:bg-white hover:border hover:border-blue-400">Learn</button>
+                            <button className="px-4 py-1 text-base text-slate-500 border border-white-400 rounded bg-white hover:border hover:border-slate-800">
+                                Feedback
+                            </button>
+                            <button className="mx-1 px-4 py-1 text-base text-white border border-blue-400 rounded bg-blue-500 hover:text-blue-400 hover:bg-white hover:border hover:border-blue-400">
+                                Learn
+                            </button>
                             <button>
                                 <FontAwesomeIcon icon={faGithub} size="2x" color='grey' className='w-6' />
                             </button>
