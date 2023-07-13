@@ -2,6 +2,7 @@ import { faA, faCaretUp, faFileCode, faImage, faShareFromSquare } from '@fortawe
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect, useRef, useState } from 'react';
 import style from './style.module.scss';
+import Image from 'next/image';
 
 export default function SecondSection() {
     const ref = useRef(null);
@@ -79,7 +80,7 @@ export default function SecondSection() {
                         <span>
                             <a href="#" className='group'>
                                 <div className="h-full w-full flex flex-col items-center justify-center ">
-                                    <img src='nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
+                                    <Image src='nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
                                     <p className="text-7xl">Turbopack</p>
                                     <p className="text-2xl leading-relaxed text-center text-slate-500 font-serif">
                                         Introducing the successor to

@@ -2,6 +2,7 @@ import { faA, faImage } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect, useRef } from 'react';
 import style from './style.module.scss';
+import Image from 'next/image';
 
 export default function ThirdSection() {
     const ref = useRef(null);
@@ -128,7 +129,7 @@ export default function ThirdSection() {
                         <span>
                             <a href="#" className='group'>
                                 <div className="h-full w-full flex flex-col items-center justify-center ">
-                                    <img src='nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
+                                    <Image src='nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
                                     <p className="text-7xl">Next.js 13</p>
                                     <span className="text-sm my-4 text-slate-700">By Vercel</span>
                                     <p className="text-2xl leading-relaxed text-center text-slate-500 font-serif">Bring the power of full-stack

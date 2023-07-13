@@ -2,6 +2,7 @@ import { faA, faImage } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect, useRef } from 'react';
 import style from './style.module.scss';
+import Image from 'next/image';
 
 export default function FirstSection() {
     const ref = useRef(null);
@@ -43,7 +44,7 @@ export default function FirstSection() {
                         <span>
                             <a href="#" className='group'>
                                 <div className="h-full w-full flex flex-col items-center justify-center ">
-                                    <img src='nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
+                                    <Image src='nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
                                     <p className="text-7xl">Next.js 13</p>
                                     <span className="text-sm my-4 text-slate-700">By Vercel</span>
                                     <p className="text-2xl leading-relaxed text-center text-slate-500 font-serif">Bring the power of full-stack
@@ -106,7 +107,6 @@ export default function FirstSection() {
                             <div className='border border-100 border-slate-300 rounded-lg px-4 py-2 mt-1 bg-slate-50 mt-4'>
                                 Powered by Vercel Functions
                             </div>
-                            {/* <img src='react.jpeg'  /> */}
                         </div>
                     </a>
                 </div>

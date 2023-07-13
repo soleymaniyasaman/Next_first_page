@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Section() {
     return (
         <div class="flex flex-col items-center justify-center min-h-screen w-full p-10 text-gray-800 bg-transparent md:p-20">
-            <h2 class="text-4xl font-medium">Who's Using Next.js</h2>
+            <h2 class="text-4xl font-medium">Who&apos;s Using Next.js</h2>
             <h2 class="text-2xl font-medium text-gray-500 mt-2 font-light">We’re honored some of the most talented creatives out there build with Next.js</h2>
 
             <div class="flex flex-wrap items-center justify-center w-full max-w-full mt-8 flex-nowrap">
