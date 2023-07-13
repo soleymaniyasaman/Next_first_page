@@ -44,7 +44,7 @@ export default function FirstSection() {
                         <span>
                             <a href="#" className='group'>
                                 <div className="h-full w-full flex flex-col items-center justify-center ">
-                                    <Image src='nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
+                                    <Image src='/nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
                                     <p className="text-7xl">Next.js 13</p>
                                     <span className="text-sm my-4 text-slate-700">By Vercel</span>
                                     <p className="text-2xl leading-relaxed text-center text-slate-500 font-serif">Bring the power of full-stack
@@ -60,7 +60,7 @@ export default function FirstSection() {
                 <div className="row-start-1 row-span-2 col-start-2 rounded-lg border border-50 border-slate-300 bg-slate-100 hover:delay-200 duration-500 hover:bg-slate-200 p-4">
                     <a href="#" className='group relative'>
                         <button
-                            className="absolute px-3 py-1 text-base text-slate-600 border border-white-400 rounded bg-gradient-to-br from-slate-300 via-slate-100 to-slate-300 mb-1 top-2 right-2">BETA</button>
+                            className="absolute px-3 py-1 text-base text-slate-600 border border-white-400 rounded bg-gradient-to-br from-slate-300 via-slate-100 to-slate-300 mb-1 top-2">BETA</button>
                         <div className='h-full w-full flex flex-col items-center justify-center'>
                             <div className='flex justify-end items-center border border-100 border-slate-300 rounded-lg w-32 h-24 '>
                                 <div className='flex justify-center border border-100 border-slate-300 rounded-lg w-24 h-20 mr-1 bg-gradient-to-br from-slate-50 via-slate-200 to-slate-50'>
