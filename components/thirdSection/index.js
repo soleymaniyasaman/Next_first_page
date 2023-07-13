@@ -129,7 +129,7 @@ export default function ThirdSection() {
                         <span>
                             <a href="#" className='group'>
                                 <div className="h-full w-full flex flex-col items-center justify-center ">
-                                    <Image src='/nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
+                                    <Image src='/images/nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
                                     <p className="text-7xl">Next.js 13</p>
                                     <span className="text-sm my-4 text-slate-700">By Vercel</span>
                                     <p className="text-2xl leading-relaxed text-center text-slate-500 font-serif">Bring the power of full-stack

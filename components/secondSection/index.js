@@ -80,7 +80,7 @@ export default function SecondSection() {
                         <span>
                             <a href="#" className='group'>
                                 <div className="h-full w-full flex flex-col items-center justify-center ">
-                                    <Image src='/nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
+                                    <Image src='/images/nextLogo.jpg' alt='logo' width={80} height={80} className="rounded-full mb-8" />
                                     <p className="text-7xl">Turbopack</p>
                                     <p className="text-2xl leading-relaxed text-center text-slate-500 font-serif">
                                         Introducing the successor to
