@@ -11,7 +11,6 @@ export default function ThirdSection() {
 
         // for handling card haver
         const cardVercel = document.querySelector('#cardVercel_id');;
-        console.log(cardVercel);
 
         cardVercel.addEventListener('mousemove', e => {
 

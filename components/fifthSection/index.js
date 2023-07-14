@@ -11,7 +11,7 @@ export default function FifthSection() {
             <p className="text-xl text-gray-500 font-light mt-4 text-center">Next.js has all the tools you need to make the Web. Faster.</p>
             <div className="flex min-h-screen justify-center p-1 mt-10">
                 <div className="container w-full grid max-w-screen-xl gap-4 grid-rows-4 grid-cols-3">
-                    {arrays.map(_ => <div key={_} className="w-full shadow-none rounded-lg border border-50 border-slate-300 bg-transparent hover:delay-200 duration-200 hover:shadow-2xl p-6">
+                    {arrays.map((itm, inx) => <div key={inx} className="w-full shadow-none rounded-lg border border-50 border-slate-300 bg-transparent hover:delay-200 duration-200 hover:shadow-2xl p-6">
                         <h1 className="text-lg font-medium">Image Optimization</h1>
                         <p className="text-base font-light my-4">
                             &lt;Image&gt; and Automatic Image

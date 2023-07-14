@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Hulu from '../../public/Hulu.png'
 export default function Section() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen w-full p-10 text-gray-800 bg-transparent md:p-20">
@@ -8,30 +8,30 @@ export default function Section() {
 
             <div className="flex flex-wrap items-center justify-center w-full max-w-full mt-8 flex-nowrap">
                 <div className="z-10 flex flex-col flex-grow mt-1 overflow-hidden bg-white rounded-lg shadow-lg  md:scale-150">
-                    <Image src="/images/Hulu.png" width={600} height={700} alt='pic' className="max-h-56 h-full" />
+                    <Image src={Hulu} width={600} height={700} alt='pic' className="max-h-56 h-full" />
 
                 </div>
                 <div className="z-20 flex flex-col flex-grow mt-10 overflow-hidden bg-white rounded-lg shadow-lg  md:scale-150">
-                    <Image src="/images/Hulu.png" width={600} height={700} alt='pic' className="max-h-64 h-full" />
+                    <Image src="/Hulu.png" width={600} height={700} alt='pic' className="max-h-64 h-full" />
 
                 </div>
                 <div className="z-30 flex flex-col flex-grow mt-24 overflow-hidden bg-white rounded-lg shadow-lg  md:scale-150">
-                    <Image src="/images/Hulu.png" width={700} height={700} alt='pic' className="max-h-80 h-full" />
+                    <Image src="/Hulu.png" width={700} height={700} alt='pic' className="max-h-80 h-full" />
 
                 </div>
 
                 <div className="z-40 flex flex-col flex-grow mt-40 overflow-hidden transform bg-white rounded-lg shadow-lg md:scale-150">
-                    <Image src="/images/Hulu.png" width={900} height={700} alt='pic' className="max-h-96 h-full" />
+                    <Image src="/Hulu.png" width={900} height={700} alt='pic' className="max-h-96 h-full" />
                 </div>
 
                 <div className="z-30 flex flex-col flex-grow mt-24 overflow-hidden bg-white rounded-lg shadow-lg  md:scale-150">
-                    <Image src="/images/Hulu.png" width={700} height={700} alt='pic' className="max-h-80 h-full" />
+                    <Image src="/Hulu.png" width={700} height={700} alt='pic' className="max-h-80 h-full" />
                 </div>
                 <div className="z-20 flex flex-col flex-grow mt-10 overflow-hidden bg-white rounded-lg shadow-lg  md:scale-150">
-                    <Image src="/images/Hulu.png" width={600} height={700} alt='pic' className="max-h-64 h-full" />
+                    <Image src="/Hulu.png" width={600} height={700} alt='pic' className="max-h-64 h-full" />
                 </div>
                 <div className="z-10 flex flex-col flex-grow mt-1 overflow-hidden bg-white rounded-lg shadow-lg  md:scale-150">
-                    <Image src="/images/Hulu.png" width={600} height={700} alt='pic' className="max-h-56 h-full" />
+                    <Image src="/Hulu.png" width={600} height={700} alt='pic' className="max-h-56 h-full" />
                 </div>
             </div>
         </div>
